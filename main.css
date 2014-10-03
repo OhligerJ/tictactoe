@@ -1,0 +1,53 @@
+table, td, tbody, tr {
+	padding:0;
+	margin: 0;
+	border-spacing:0px;
+}
+
+.container {
+	max-width: 900px;
+	margin: 20px auto;
+}
+
+h1, h3 {
+	margin: 0 auto;
+	text-align:center;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.board {
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.board td{
+	height: 200px;
+	width: 200px;
+}
+
+.white, .black {
+	text-align:center;
+	font-size: 96px;
+	vertical-align: middle;
+	font-weight: bold;
+	text-transform: uppercase;
+}	
+
+.white {
+	background-color: white;
+	color: black !important;
+}
+
+.black {
+	background-color: black;
+	color:white !important;
+}
+
+button#reset {
+	margin: 15px 0px 0px 120px;
+}

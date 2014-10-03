@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+	<script src="./main.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div class="container">
+	<div class="col-md-12 center">
+		<h1 class="title">TIC TAC TOE</h1>
+		<h3 class="turn">Player <span id="plnum">1</span>, it's your turn</h3>
+		<table class="board">
+			<tbody>
+				<tr>
+					<td class="black" id="1x1"></td>
+					<td class="white" id="1x2"></td>
+					<td class="black" id="1x3"></td>
+				</tr>
+				<tr>
+					<td class="white" id="2x1"></td>
+					<td class="black" id="2x2"></td>
+					<td class="white" id="2x3"></td>
+				</tr>
+				<tr>
+					<td class="black" id="3x1"></td>
+					<td class="white" id="3x2"></td>
+					<td class="black" id="3x3"></td>
+				</tr>
+			</tbody>
+		</table>
+		<button type="button" class="btn btn-primary" id="reset">Reset the board</button>
+	</div>
+</div>
+	
+	
+</body>
+</html>
